@@ -5,6 +5,7 @@
     "category": "Sales",
     "summary": "Confirm selected quotations on list view using server action",
     "author": "t-vers Academy",
+    "license": "LGPL-3",
     "depends": ["sale"],
     "data": [
         "data/server_action.xml",
