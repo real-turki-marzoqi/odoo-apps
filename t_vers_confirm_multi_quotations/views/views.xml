@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="era_confirm_multi_quotations.list">
+      <field name="name">era_confirm_multi_quotations list</field>
+      <field name="model">era_confirm_multi_quotations.era_confirm_multi_quotations</field>
+      <field name="arch" type="xml">
+        <list>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </list>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="era_confirm_multi_quotations.action_window">
+      <field name="name">era_confirm_multi_quotations window</field>
+      <field name="res_model">era_confirm_multi_quotations.era_confirm_multi_quotations</field>
+      <field name="view_mode">list,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="era_confirm_multi_quotations.action_server">
+      <field name="name">era_confirm_multi_quotations server</field>
+      <field name="model_id" ref="model_era_confirm_multi_quotations_era_confirm_multi_quotations"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "list,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="era_confirm_multi_quotations" id="era_confirm_multi_quotations.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="era_confirm_multi_quotations.menu_1" parent="era_confirm_multi_quotations.menu_root"/>
+    <menuitem name="Menu 2" id="era_confirm_multi_quotations.menu_2" parent="era_confirm_multi_quotations.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="era_confirm_multi_quotations.menu_1_list" parent="era_confirm_multi_quotations.menu_1"
+              action="era_confirm_multi_quotations.action_window"/>
+    <menuitem name="Server to list" id="era_confirm_multi_quotations" parent="era_confirm_multi_quotations.menu_2"
+              action="era_confirm_multi_quotations.action_server"/>
+-->
+  </data>
+</odoo>
