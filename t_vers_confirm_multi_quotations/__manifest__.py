@@ -10,6 +10,9 @@
     "data": [
         "data/server_action.xml",
     ],
+    "images": [
+        "static/description/bannar.gif",
+    ],
     "installable": True,
     "application": False,
 }
