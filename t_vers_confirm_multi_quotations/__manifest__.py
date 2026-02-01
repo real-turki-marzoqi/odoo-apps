@@ -4,7 +4,7 @@
     "version": "18.0.1.0.0",
     "category": "Sales",
     "summary": "Confirm selected quotations on list view using server action",
-    "author": "t-vers Academy",
+    "author": "Mohammed Hassan Falemban",
     "license": "LGPL-3",
     "depends": ["sale"],
     "data": [
